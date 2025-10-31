@@ -7,7 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\FlashSaleDB\FlashSaleDB\FlashSaleDB.csproj" />
     <ProjectReference Include="..\E-commerceFlashSale.Domain\UserManagement.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
 
 </Project>
